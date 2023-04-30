@@ -1,0 +1,21 @@
+{
+  "name": "callmegreen",
+  "displayName": "callmesilva.callmegreen",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Call me green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Call me green-color-theme.json"
+      }
+    ]
+  }
+}
