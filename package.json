@@ -1,6 +1,6 @@
 {
   "name": "callmegreen",
-  "displayName": "callmesilva.callmegreen",
+  "displayName": "Call Me Green",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -9,6 +9,16 @@
   "categories": [
     "Themes"
   ],
+  "icon": "icon.png",
+  "author": {
+    "name": "Enrique Silva",
+    "email": "callme.silva@outlook.com",
+    "url": "https://callmesilva.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callmesilva/callmegreen"
+  },
   "contributes": {
     "themes": [
       {
