@@ -4,7 +4,24 @@
 		"editor.background": "#1d211f",
 		"editor.foreground": "#bedbdb",
 		"activityBarBadge.background": "#08983d",
-		"sideBarTitle.foreground": "#9af1a1"
+		"sideBarTitle.foreground": "#14e525",
+		"sideBar.background": "#13211b",
+		"activityBar.activeBackground": "#195f32",
+		"activityBar.background": "#1d211f",
+		"activityBar.foreground": "#0fee0f",
+		"sideBar.foreground": "#1ccaca",
+		"sideBarSectionHeader.foreground": "#bfd8d8",
+		"sideBarSectionHeader.background": "#195f32",
+		"sideBar.border": "#336f51",
+		"editorGroupHeader.tabsBackground": "#336f51",
+		"editorGroupHeader.tabsBorder": "#1d211f",
+		"editorGroup.border": "#1d211f",
+		"editorGroup.background": "#1d211f",
+		"editorGroupHeader.noTabsBackground": "#1d211f",
+		"editorGroupHeader.noTabsBorder": "#1d211f",
+		"editorGroup.emptyBackground": "#1d211f",
+		"editorGroup.focusedEmptyBorder": "#1d211f",
+		
 	},
 	"tokenColors": [
 		{
@@ -627,4 +644,5 @@
 			}
 		}
 	]
+	
 }
