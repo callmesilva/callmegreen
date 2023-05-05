@@ -24,7 +24,7 @@
 		"sideBar.foreground": "#f2ffc4",
 		"sideBarSectionHeader.foreground": "#bfd8d8",
 		"sideBarSectionHeader.background": "#195f32",
-		"editorGroupHeader.tabsBackground": "#092416",
+		"editorGroupHeader.tabsBackground": "#00000067",
 		"editorGroupHeader.tabsBorder": "#336f51",
 		"editorGroup.border": "#336f51",
 		"editorGroupHeader.noTabsBackground": "#1d211f",
@@ -49,9 +49,8 @@
 		"textLink.foreground": "#00b9aa",
 		"list.hoverBackground": "#ffffff54",
 		"titleBar.inactiveBackground": "#0016019c",
-		"titleBar.activeBackground": "#0016019c"
-		
-
+		"titleBar.activeBackground": "#0016019c",
+		"tab.inactiveBackground": "#00000067"
 	},
 	"tokenColors": [
 		{
@@ -134,7 +133,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#7edbff"
 			}
 		},
 		{
@@ -167,7 +166,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#ffffff"
 			}
 		},
 		{
