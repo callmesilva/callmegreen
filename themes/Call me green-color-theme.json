@@ -50,7 +50,8 @@
 		"list.hoverBackground": "#ffffff54",
 		"titleBar.inactiveBackground": "#0016019c",
 		"titleBar.activeBackground": "#0016019c",
-		"tab.inactiveBackground": "#00000067"
+		"tab.inactiveBackground": "#00000067",
+		// "tab.activeBackground": "#00000067",
 	},
 	"tokenColors": [
 		{
@@ -71,7 +72,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#d7ca15"
+				"foreground": "#867ef7"
 			}
 		},
 		{
@@ -156,7 +157,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#e6a55b"
+				"foreground": "#8dcaee"
 			}
 		},
 		{
