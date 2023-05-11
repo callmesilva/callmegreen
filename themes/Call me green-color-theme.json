@@ -51,7 +51,15 @@
 		"titleBar.inactiveBackground": "#0016019c",
 		"titleBar.activeBackground": "#0016019c",
 		"tab.inactiveBackground": "#00000067",
-		// "tab.activeBackground": "#00000067",
+		"tab.activeBackground": "#00000067",
+		// "panel.background": "#00000009"
+		"dropdown.background": "#00000067",
+		"checkbox.selectBackground": "#e28000",
+		// "menu.background": "#ff0000"
+		// "panel.background": "#ff0000"
+		"notifications.background": "#195f32",
+		// "toolbar.activeBackground": "#ff0000"
+		"editorWidget.background": "#195f32"
 	},
 	"tokenColors": [
 		{
