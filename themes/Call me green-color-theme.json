@@ -33,7 +33,7 @@
 		"editor.findMatchBackground": "#ffffff83",
 		"editor.findMatchBorder": "#d32b2b83",
 		"editor.findMatchHighlightBorder": "#ffffff",
-		"editor.hoverHighlightBackground": "#ffffff7b",
+		"editor.hoverHighlightBackground": "#053c427b",
 		"editorBracketHighlight.foreground1": "#ca8cf4",
 		"editorBracketHighlight.foreground2": "#dff01f",
 		"editorBracketHighlight.foreground3": "#ffffff",
