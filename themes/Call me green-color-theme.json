@@ -53,7 +53,7 @@
 		"tab.inactiveBackground": "#00000067",
 		"tab.activeBackground": "#00000067",
 		// "panel.background": "#00000009"
-		"dropdown.background": "#00000067",
+		"dropdown.background": "#000000",
 		"checkbox.selectBackground": "#e28000",
 		// "menu.background": "#ff0000"
 		// "panel.background": "#ff0000"
