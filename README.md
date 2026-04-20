@@ -11,6 +11,61 @@ This is just a green theme for Visual Studio Code. I made it for myself, but if 
 4. Click **Reload** to reload the your editor
 5. Code > Preferences > Color Theme > **Call me green**
 
+## Local Development
+
+1. Clone the repository.
+2. Open the folder in VS Code.
+3. Press `F5` to launch an Extension Development Host.
+4. In the new window, select **Call me green** from the Color Theme picker.
+
+## Package Extension (VSIX)
+
+1. Install packaging tooling:
+
+```bash
+npm install -g @vscode/vsce
+```
+
+2. Build a VSIX package:
+
+```bash
+vsce package
+```
+
+This generates a file like `callmegreen-0.0.10.vsix` that can be installed locally.
+
+## Publish to VS Code Marketplace
+
+1. Create a publisher access token in Azure DevOps with Marketplace manage scope.
+2. Login once:
+
+```bash
+vsce login Callmesilva
+```
+
+3. Publish:
+
+```bash
+vsce publish
+```
+
+Or publish a specific version:
+
+```bash
+vsce publish 0.0.10
+```
+
+## Create a PR With Theme Changes
+
+```bash
+git checkout -b feat/vim-amber-palette
+git add .
+git commit -m "feat(theme): add vim-inspired amber palette and divider accents"
+git push -u origin feat/vim-amber-palette
+```
+
+Then open a PR to `main` in GitHub.
+
 ## License
 
 MIT License
