@@ -9,6 +9,7 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    environment: prod
     permissions:
       contents: read
 
@@ -37,7 +38,7 @@ jobs:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
         run: |
           if [ -z "$VSCE_PAT" ]; then
-            echo "Missing VSCE_PAT repository secret."
+            echo "Missing VSCE_PAT environment secret for 'prod'."
             exit 1
           fi
 
