@@ -55,6 +55,24 @@ Or publish a specific version:
 vsce publish 0.0.10
 ```
 
+## Automated Publish With GitHub Actions
+
+This repository includes [.github/workflows/publish-marketplace.yml](.github/workflows/publish-marketplace.yml), which publishes the extension when you push a version tag.
+
+1. Create a Personal Access Token in Azure DevOps Marketplace with manage permissions.
+2. Add it as a GitHub Actions repository secret named `VSCE_PAT`.
+3. Ensure `package.json` version is updated (for example `0.0.11`).
+4. Create and push a matching tag:
+
+```bash
+git checkout main
+git pull --ff-only origin main
+git tag v0.0.11
+git push origin v0.0.11
+```
+
+The workflow validates that the tag version matches `package.json`, then runs `vsce publish`.
+
 ## Create a PR With Theme Changes
 
 ```bash
