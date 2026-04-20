@@ -1,16 +1,16 @@
 {
 	"name": "Call me green",
 	"colors": {
-		"editor.background": "#092416",
-		"editor.foreground": "#bedbdb",
+		"editor.background": "#03171a",
+		"editor.foreground": "#ffc163",
 		"activityBarBadge.background": "#08983d",
-		"sideBarTitle.foreground": "#14e525",
-		"sideBar.background": "#021a0e",
+		"sideBarTitle.foreground": "#ffc163",
+		"sideBar.background": "#03171a",
 		"activityBar.activeBackground": "#195d5f",
-		"activityBar.background": "#00a70e41",
-		"activityBar.foreground": "#0fee0f",
+		"activityBar.background": "#03171a",
+		"activityBar.foreground": "#ffc163",
 		"activityBar.activeBorder": "#ffffff",
-		"activityBar.border": "#336f51",
+		"activityBar.border": "#ffc16333",
 		"activityBar.inactiveForeground": "#ffffff",
 		"activityBarBadge.foreground": "#ffffff",
 		"badge.background": "#08983d",
@@ -21,15 +21,19 @@
 		"button.foreground": "#b3ffb3",
 		"button.hoverBackground": "#05d853",
 		"editor.findMatchHighlightBackground": "#89682d",
-		"sideBar.foreground": "#f2ffc4",
+		"sideBar.foreground": "#ffc163",
 		"sideBarSectionHeader.foreground": "#bfd8d8",
-		"sideBarSectionHeader.background": "#195f32",
+		"sideBarSectionHeader.background": "#03171a",
 		"editorGroupHeader.tabsBackground": "#00000067",
-		"editorGroupHeader.tabsBorder": "#336f51",
-		"editorGroup.border": "#336f51",
+		"editorGroupHeader.tabsBorder": "#ffc16344",
+		"editorGroupHeader.border": "#ffc16355",
+		"editorGroup.border": "#ffc16366",
+		"sideBySideEditor.horizontalBorder": "#ffc16377",
+		"sideBySideEditor.verticalBorder": "#ffc16377",
 		"editorGroupHeader.noTabsBackground": "#1d211f",
 		"editorGroup.emptyBackground": "#1b2e26",
 		"editorGroup.focusedEmptyBorder": "#42cc87",
+		"editor.lineHighlightBorder": "#ffc16322",
 		"editor.findMatchBackground": "#ffffff83",
 		"editor.findMatchBorder": "#d32b2b83",
 		"editor.findMatchHighlightBorder": "#ffffff",
@@ -39,8 +43,9 @@
 		"editorBracketHighlight.foreground3": "#ffffff",
 		"editorCursor.foreground": "#2ec4ff",
 		"minimap.background": "#00000050",
-		"statusBar.background": "#10bd6c",
-		"statusBar.border": "#1d211f",
+		"statusBar.background": "#14191e",
+		"statusBar.foreground": "#ffc163",
+		"statusBar.border": "#ffc16333",
 		"input.background": "#000000cb",
 		"input.foreground": "#f8f8f8",
 		"input.placeholderForeground": "#afafaf",
@@ -48,10 +53,15 @@
 		"textLink.activeForeground": "#e28000",
 		"textLink.foreground": "#00b9aa",
 		"list.hoverBackground": "#ffffff54",
-		"titleBar.inactiveBackground": "#0016019c",
-		"titleBar.activeBackground": "#0016019c",
+		"titleBar.inactiveBackground": "#03171a",
+		"titleBar.activeBackground": "#03171a",
+		"titleBar.activeForeground": "#ffc163",
+		"titleBar.border": "#ffc16333",
 		"tab.inactiveBackground": "#00000067",
 		"tab.activeBackground": "#00000067",
+		"tab.activeForeground": "#ffc163",
+		"tab.inactiveForeground": "#c7c7c7",
+		"tab.border": "#ffc1632e",
 		// "panel.background": "#00000009"
 		"dropdown.background": "#000000",
 		"checkbox.selectBackground": "#e28000",
@@ -59,7 +69,12 @@
 		// "panel.background": "#ff0000"
 		"notifications.background": "#195f32",
 		// "toolbar.activeBackground": "#ff0000"
-		"editorWidget.background": "#195f32"
+		"editorWidget.background": "#195f32",
+		"editorWidget.border": "#ffc16340",
+		"panel.background": "#03171a",
+		"panel.border": "#ffc16333",
+		"focusBorder": "#ffc1635a",
+		"contrastBorder": "#ffc16333"
 	},
 	"tokenColors": [
 		{
@@ -680,7 +695,61 @@
 			"settings": {
 				"foreground": "#EEFFFF"
 			}
+		},
+		{
+			"name": "Vim-inspired strings",
+			"scope": [
+				"string",
+				"string.quoted"
+			],
+			"settings": {
+				"foreground": "#f1fa8c"
+			}
+		},
+		{
+			"name": "Vim-inspired keywords",
+			"scope": [
+				"keyword",
+				"keyword.control",
+				"storage.modifier",
+				"punctuation.definition.keyword",
+				"meta.import",
+				"keyword.control.import",
+				"keyword.control.export",
+				"entity.other.attribute-name",
+				"entity.other.attribute-name.jsx",
+				"entity.other.attribute-name.tsx"
+			],
+			"settings": {
+				"foreground": "#ffa500"
+			}
+		},
+		{
+			"name": "Vim-inspired types and primitives",
+			"scope": [
+				"storage.type",
+				"entity.name.type",
+				"entity.name.type.class",
+				"support.type",
+				"support.class",
+				"constant.language.boolean",
+				"constant.language.null",
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#50fa7b"
+			}
 		}
-	]
+	],
+	"semanticTokenColors": {
+		"keyword": "#ffa500",
+		"type": "#50fa7b",
+		"type.defaultLibrary": "#50fa7b",
+		"enum": "#50fa7b",
+		"interface": "#50fa7b",
+		"typeParameter": "#50fa7b",
+		"number": "#50fa7b",
+		"boolean": "#50fa7b"
+	}
 	
 }
